@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Topbar from "./components/Topbar";
+import Footer from "./components/Footer";
 
 import Landing from "./screens/Landing";
 import Destinations from "./screens/Destinations";
@@ -31,6 +32,8 @@ function App() {
         <Route path="/profile" element={<Profile />} />
 
       </Routes>
+
+      <Footer />
 
     </BrowserRouter>
   );
