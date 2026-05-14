@@ -1,0 +1,450 @@
+/* ===== BODY ===== */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== TOPBAR ===== */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 6px 25px;
+
+  background-color: white;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* ===== LEFT SIDE ===== */
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flag {
+  width: 50px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.left-side h2 {
+  color: #00897b;
+  font-size: 26px;
+}
+
+/* ===== RIGHT SIDE ===== */
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-side a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* ===== LOGIN BUTTON ===== */
+
+.login-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ===== SIGNUP BUTTON ===== */
+
+.signup-btn {
+  padding: 10px 22px;
+
+  border: 2px solid #009688;
+
+  background-color: white;
+
+  color: #009688 !important;
+
+  border-radius: 10px;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #009688;
+  color: white !important;
+}
+
+/* ===== PROFILE ICON ===== */
+
+.profile-icon {
+  width: 42px;
+  height: 42px;
+
+  background-color: #009688;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white !important;
+
+  font-size: 22px;
+}
+
+/* ===== HERO SECTION ===== */
+
+.hero-section {
+  height: 100vh;
+
+  background-image: url("/tigernest.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+/* ===== DARK OVERLAY ===== */
+
+.hero-section::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0,0,0,0.25);
+}
+
+/* ===== HERO CONTENT ===== */
+
+.overlay {
+  position: relative;
+
+  background-color: rgba(0,0,0,0.45);
+
+  padding: 50px;
+
+  border-radius: 20px;
+
+  color: white;
+
+  text-align: center;
+
+  width: 70%;
+  max-width: 900px;
+}
+
+.overlay h1 {
+  font-size: 65px;
+
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  font-size: 24px;
+
+  margin-bottom: 40px;
+}
+
+/* ===== HERO BUTTONS ===== */
+
+.hero-buttons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+/* ===== DESTINATION BUTTON ===== */
+
+.destination-btn {
+  padding: 18px 35px;
+
+  border: none;
+
+  background-color: #009688;
+
+  color: white;
+
+  border-radius: 12px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.destination-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== FOOD BUTTON ===== */
+
+.food-btn {
+  padding: 18px 35px;
+
+  border: 2px solid white;
+
+  background: transparent;
+
+  color: white;
+
+  border-radius: 12px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.food-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ===== PAGE ===== */
+
+.page {
+  text-align: center;
+  padding: 40px;
+}
+
+/* ===== CARDS ===== */
+
+.card-container {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+
+  margin-top: 40px;
+}
+
+.card {
+  width: 300px;
+
+  background-color: white;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+
+  object-fit: cover;
+}
+
+.card h2 {
+  margin-top: 15px;
+}
+
+.card p {
+  padding: 15px;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+.about-section {
+  text-align: center;
+
+  padding: 80px 20px;
+
+  background-color: #f5f5f5;
+}
+
+.about-section h1 {
+  color: #009688;
+
+  font-size: 42px;
+}
+
+.about-section p {
+  max-width: 800px;
+
+  margin: auto;
+
+  font-size: 20px;
+
+  line-height: 1.8;
+}
+
+/* ===== FEATURE SECTION ===== */
+
+.feature-section {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+
+  padding: 80px 20px;
+
+  background-color: white;
+}
+
+/* ===== FEATURE CARD ===== */
+
+.feature-card {
+  width: 280px;
+
+  background-color: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h2 {
+  color: #009688;
+}
+
+/* ===== AUTH PAGES ===== */
+
+.auth-page,
+.profile-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5f5f5;
+
+  padding-top: 80px;
+}
+
+/* ===== AUTH BOX ===== */
+
+.auth-box,
+.profile-card {
+  width: 350px;
+
+  background-color: white;
+
+  padding: 40px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+  text-align: center;
+}
+
+/* ===== INPUTS ===== */
+
+.auth-box input {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-top: 20px;
+
+  border-radius: 8px;
+
+  border: 1px solid gray;
+
+  font-size: 16px;
+
+  box-sizing: border-box;
+}
+
+/* ===== AUTH BUTTON ===== */
+
+.auth-box button {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-top: 25px;
+
+  border: none;
+
+  background-color: #009688;
+
+  color: white;
+
+  border-radius: 8px;
+
+  font-size: 18px;
+
+  cursor: pointer;
+}
+
+/* ===== PROFILE IMAGE ===== */
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+
+  background-color: #009688;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  font-size: 50px;
+
+  margin: auto;
+}
