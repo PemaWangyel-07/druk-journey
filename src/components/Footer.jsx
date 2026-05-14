@@ -10,13 +10,16 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-brand">
-          <h3>Druk Journey</h3>
+          <div className="footer-brand-title">
+            <img src="/flag.png" alt="Druk Journey logo" className="footer-logo" />
+            <h3>Druk Journey</h3>
+          </div>
           <p>Explore Bhutan's most beautiful destinations and culture.</p>
         </div>
 
         <div className="footer-social">
           <a
-            href="https://facebook.com/your-profile"
+            href="https://www.facebook.com/share/1HbYLQmAu1/"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook"
@@ -24,7 +27,7 @@ function Footer() {
             <FaFacebookF />
           </a>
           <a
-            href="https://instagram.com/your-profile"
+            href="https://www.instagram.com/wangyel__olo?igsh=MWp5NDI1bnlnNXZmag=="
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
@@ -40,7 +43,7 @@ function Footer() {
             <FaTwitter />
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/pema-wangyel-14a540333"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
