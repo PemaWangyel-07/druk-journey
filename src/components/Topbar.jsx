@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaUserCircle } from "react-icons/fa";
 
 function Topbar() {
   return (
@@ -27,7 +28,7 @@ function Topbar() {
         </Link>
 
         <Link to="/profile" className="profile-icon">
-          👤
+          <FaUserCircle size={22} />
         </Link>
 
       </div>

@@ -1,3 +1,5 @@
+import { FaUserCircle } from "react-icons/fa";
+
 function Profile() {
   return (
     <div
@@ -29,11 +31,10 @@ function Profile() {
             justifyContent: "center",
             alignItems: "center",
             margin: "auto",
-            fontSize: "50px",
             color: "white",
           }}
         >
-          👤
+          <FaUserCircle size={50} />
         </div>
 
         <h1>Pema</h1>
